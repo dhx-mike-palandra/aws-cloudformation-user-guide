@@ -109,8 +109,8 @@ The following example creates a Pipeline with an associated lifecycle configurat
 
 #### JSON<a name="aws-resource-sagemaker-pipeline--examples--SageMaker_Pipeline_Example--json"></a>
 
+##### Pipeline definition given as a JSON string
 ```
-# Pipeline definition given as a JSON string 
 {
    "Resources": {
       "MyPipeline": {
@@ -130,8 +130,8 @@ The following example creates a Pipeline with an associated lifecycle configurat
 
 #### JSON<a name="aws-resource-sagemaker-pipeline--examples--SageMaker_Pipeline_Example--json"></a>
 
+##### Pipeline definition given as a S3 location
 ```
-# Pipeline definition given as an S3 string 
 {
    "Resources": {
       "MyPipeline": {
@@ -155,8 +155,8 @@ The following example creates a Pipeline with an associated lifecycle configurat
 
 #### YAML<a name="aws-resource-sagemaker-pipeline--examples--SageMaker_Pipeline_Example--yaml"></a>
 
+##### Pipeline definition given as a JSON string
 ```
-# Pipeline definition given as a JSON string 
 Resources:
   MyAwesomePipeline:
     Type: AWS::SageMaker::Pipeline
@@ -171,8 +171,8 @@ Resources:
 
 #### YAML<a name="aws-resource-sagemaker-pipeline--examples--SageMaker_Pipeline_Example--yaml"></a>
 
+##### Pipeline definition given as a S3 location
 ```
-# Pipeline definition given as an S3 location Resources:
 Resources:
   MyAwesomePipeline:
     Type: AWS::SageMaker::Pipeline
